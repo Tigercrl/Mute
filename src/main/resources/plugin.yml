@@ -1,0 +1,32 @@
+name: Mute
+version: '${version}'
+main: io.github.tigercrl.mute.Mute
+api-version: 1.16
+author: Tigercrl
+description: Mute players in the chat
+website: https://github.com/Tigercrl/Mute
+commands:
+  mute:
+    description: Mute a player.
+    usage: /mute <player_name> [<minutes> / infinite] [<reason>]
+    permission: mute.command.mute
+  unmute:
+    description: Unmute a player.
+    usage: /unmute <player_name>
+    permission: mute.command.unmute
+permissions:
+  mute.*:
+    description: All permissions for Mute plugin.
+    children:
+      mute.bypass:
+        description: Bypass muting.
+        default: op
+      mute.command.*:
+        description: All permissions for commands of Mute plugin.
+        children:
+          mute.command.mute:
+            description: Permission for muting players.
+            default: op
+          mute.command.unmute:
+            description: Permission for unmuting players.
+            default: op

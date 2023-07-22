@@ -1,0 +1,7 @@
+chat-when-muted: "您已被禁言，聊天信息将无法发出。"
+muted: "您已被禁言，将在%time%分钟后解除禁言。原因：%reason%。"
+mute-success: "已将玩家 %player% 禁言。"
+unmuted: "您已被解除禁言。"
+unmute-success: "已解除玩家 %player% 的禁言。"
+player-not-found: "无法找到玩家：%player%。"
+argument-error: "错误的参数：%argument%."

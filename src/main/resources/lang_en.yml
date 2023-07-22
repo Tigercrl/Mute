@@ -1,0 +1,7 @@
+chat-when-muted: "You were muted in %type% chat. Message won't be sent."
+muted: "You have been muted and will be unmuted in %time% minutes. Reason: %reason%"
+mute-success: "Muted player %player%."
+unmuted: "You are no longer muted."
+unmute-success: "Player %player% is no longer muted."
+player-not-found: "Could not find player %player%."
+argument-error: "Error at argument %argument%."
